@@ -1,0 +1,128 @@
+/*Partie 1 (index.html + jeux.html)*/
+html {
+    background-color: aqua;
+    text-align: justify;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    padding: 0;
+    margin: 0;
+}
+
+H1,#icone,#img {
+    text-align: center;
+    color: brown;
+}
+
+#principale {
+    /* size: 80%;*/
+    align-content: center;     
+}
+
+/*Partie 2 (index.html)*/
+
+#La_boutique {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#CGU {
+    color: brown;
+    text-decoration-line: none;
+}
+
+/*num 1 à revenir*/
+a {
+    color: rgb(255, 0, 0);
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+img {
+    border-radius: 10px;
+    /*border-radius: 100000000000000000000000000000000000000000000px; (Veuillez tester cela)*/
+}
+
+#H2 {
+    color: rgb(255, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    margin-bottom: 10px;
+
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
+}
+
+#Liste {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+p{
+    text-align: justify;
+}
+
+#CGU:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+/*Partie 3 (Juex.html seulement)*/
+
+    table {
+        width: 320px;
+        /*border-collapse: collapse;*/
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    caption{
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .colone{
+        padding: 10px;
+    }
+
+    button{
+        background-color: green;
+        font-weight: bold;
+        font-size: 16px;
+        color: blue;
+        border-radius: 10px;
+        height: 50px;
+        border: 0px;
+        width: 300px;
+    }
+    button:hover{
+        background-color: brown;
+    }
+
+   td,
+    th {
+        font-size: large;
+    } 
